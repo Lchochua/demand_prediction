@@ -134,15 +134,16 @@ data/*.tsv
 data/*.zip
 data/*.gsv
 data/*.json
-data/*.shp
-data/*.cpg
-data/*.dbf
-data/*.prj
-data/*.sbx
-data/*.sbn
-data/*.shx
-data/*.sbx
-data/*.xml
+
+# Ignore shapefile related files
+data/**/*.shp
+data/**/*.cpg
+data/**/*.dbf
+data/**/*.prj
+data/**/*.sbx
+data/**/*.sbn
+data/**/*.shx
+data/**/*.xml
 
 # models
 models/*.pickle
